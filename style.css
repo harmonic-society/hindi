@@ -107,8 +107,10 @@ a {
 .logo-img {
   height: 96px;
   width: auto;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 16px;
+  overflow: hidden;
+  display: block;
 }
 
 .logo-main {

@@ -201,7 +201,7 @@ a {
   justify-content: center;
   background: linear-gradient(135deg, #1A1A2E 0%, #16213E 40%, #0F3460 100%);
   overflow: hidden;
-  padding: 100px 24px 60px;
+  padding: 140px 24px 60px;
 }
 
 .hero::before {
@@ -1345,7 +1345,7 @@ a {
   .section { padding: 72px 0; }
 
   .hero {
-    padding: 80px 16px 60px;
+    padding: 140px 16px 60px;
     min-height: 100svh;
   }
 

@@ -208,7 +208,7 @@ a {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: url('Gemini_Generated_Image_uoftaxuoftaxuoft.png') center center / cover no-repeat;
+  background: url('Gemini_Generated_Image_kwydmykwydmykwyd.png') center center / cover no-repeat;
   pointer-events: none;
 }
 
@@ -260,10 +260,15 @@ a {
 .hero-title {
   font-size: clamp(2rem, 5vw, 3.2rem);
   font-weight: 900;
-  color: #fff;
+  color: var(--color-primary);
   line-height: 1.4;
   margin-bottom: 20px;
   letter-spacing: -0.02em;
+  paint-order: stroke fill;
+  -webkit-text-stroke: 3px #ffffff;
+  text-shadow:
+    0 0 8px rgba(255, 255, 255, 0.6),
+    0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-title-accent {
@@ -382,6 +387,14 @@ a {
 .btn-hero {
   font-size: 1.05rem;
   padding: 18px 48px;
+}
+
+.hero-trial-note {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  letter-spacing: 0.05em;
 }
 
 .btn-outline {
